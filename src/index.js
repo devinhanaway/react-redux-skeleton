@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import GoogleMapReact from 'google-map-react';
+
+
 import App from './App';
 import NewPost from './components/NewPost'
 import Post from './components/Post'
+import SimpleMap from './components/SimpleMap'
 
 //middleware
 
@@ -33,6 +37,7 @@ ReactDOM.render(
         <Route path='/' component={App} />
         <Route exact path='/' component={Post} />
         <Route path='/newpost' component={NewPost} />
+      <Route path='/simplemap' component={SimpleMap} />
       </div>
     </Provider>
   </Router>

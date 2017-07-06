@@ -18,7 +18,7 @@ class App extends Component {
         <div className="ui three item menu">
           <Link className="item" to="/">Home</Link>
           <Link className="item" to="/newpost">Add a new post</Link>
-          <Link className="item" to="/login">Sign in/Sign Up</Link>
+        <Link className="item" to="/simplemap">SimpleMap</Link>
         </div>
       </div>
 
